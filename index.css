@@ -654,17 +654,23 @@ nav {
   }
 }
 
-.product-box {
-  position: relative;
-  background-color: #fff;
-  padding: 20px;
+@media (min-width: 576px) {
+  .product-box {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
 }
 
-.product-box:hover {
-  /* padding: 10px; */
-  /* border: 1px solid black; */
-  transition: 0.4s;
+@media (min-width: 1201px) {
+  .product-box {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+  }
 }
+
 
 @media (min-width: 576px) {
   .product-img {
