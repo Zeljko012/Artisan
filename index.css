@@ -244,10 +244,21 @@ nav {
     transition: all 0.3s ease-in-out;
   }
 
+
+@media (min-width: 576px) {
+  .nav-links a {
+    font-family: 'Georgia pro', serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+}
+
+@media (min-width: 1201px) {
   .nav-links a {
     font-family: 'Georgia pro', serif;
     font-weight: 500;
     font-size: 20px;
+}
 }
 
 /* Cart start  */
@@ -400,19 +411,43 @@ nav {
 
   }
 
-  .fs-h1 {
-    text-align: center;
-    color: #fff;
-    font-size: 90px;
-    font-weight: 400;
+  @media (min-width: 576px) {
+    .fs-h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 130px;
+      font-weight: 400;
+    }
   }
 
+  @media (min-width: 1201px) {
+    .fs-h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 90px;
+      font-weight: 400;
+    }
+  }
+
+  
+  @media (min-width: 576px) {
     .fs-h3 {
-    text-align: center;
-    color: #fff;
-    font-size: 35px;
-    font-weight: 400;
-    margin: 0%;
+      text-align: center;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 400;
+      margin: 0%;
+    }
+  }
+
+  @media (min-width: 1201px) {
+    .fs-h3 {
+      text-align: center;
+      color: #fff;
+      font-size: 35px;
+      font-weight: 400;
+      margin: 0%;
+    }
   }
 
   .first-section {
@@ -422,7 +457,7 @@ nav {
   button[type="submit"] {
       font-family: 'Georgia pro', serif;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 40px;
       /* padding-left: 20px; */
 }
 
