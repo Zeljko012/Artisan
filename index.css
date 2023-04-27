@@ -36,13 +36,28 @@ nav {
     padding: 0 20px;
   }
   
-  .logo img{
-    font-size: 28px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
+
+
+  @media (min-width: 576px) {
+    .logo img{
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .logo img{
+      font-size: 40px;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   
   .nav-links {
@@ -250,7 +265,7 @@ nav {
     font-family: 'Georgia pro', serif;
     font-weight: 500;
     font-size: 40px;
-}
+  }
 }
 
 @media (min-width: 1201px) {
@@ -258,7 +273,7 @@ nav {
     font-family: 'Georgia pro', serif;
     font-weight: 500;
     font-size: 20px;
-}
+  }
 }
 
 /* Cart start  */
