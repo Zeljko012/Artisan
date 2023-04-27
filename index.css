@@ -264,7 +264,7 @@ nav {
   .nav-links a {
     font-family: 'Georgia pro', serif;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -430,7 +430,7 @@ nav {
     .fs-h1 {
       text-align: center;
       color: #fff;
-      font-size: 130px;
+      font-size: 100px;
       font-weight: 400;
     }
   }
@@ -449,7 +449,7 @@ nav {
     .fs-h3 {
       text-align: center;
       color: #fff;
-      font-size: 70px;
+      font-size: 50px;
       font-weight: 400;
       margin: 0%;
     }
@@ -473,7 +473,7 @@ nav {
   button[type="submit"] {
     font-family: 'Georgia pro', serif;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     /* padding-left: 20px; */
 }
 }
