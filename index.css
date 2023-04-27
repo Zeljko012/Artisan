@@ -371,7 +371,7 @@ nav {
     margin: auto;
   }
 
-  @media (min-width: 480px) {
+  @media (max-width: 480px) {
     .container2 {
       width: 100%;
     }
@@ -437,6 +437,12 @@ nav {
   justify-content: center;
   margin-bottom: 20px;
   width: 100%;
+}
+
+@media (min-width: 480px) {
+  .image-row {
+    display: block;
+  }
 }
 
 .image-column {
