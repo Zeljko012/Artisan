@@ -40,7 +40,7 @@ nav {
 
   @media (min-width: 576px) {
     .logo img{
-      font-size: 28px;
+      font-size: 40px;
       font-weight: bold;
       color: #333;
       text-decoration: none;
@@ -51,7 +51,7 @@ nav {
   
   @media (min-width: 1201px) {
     .logo img{
-      font-size: 40px;
+      font-size: 28px;
       font-weight: bold;
       color: #333;
       text-decoration: none;
