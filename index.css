@@ -371,15 +371,17 @@ nav {
     margin: auto;
   }
 
-  @media (min-width: 1200px) {
+@media (min-width: 576px) {
     .container2 {
       width: 100%;
+      margin: auto;
     }
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: 1201px) {
     .container2 {
-      width: 100%;
+      width: 1400px;
+      margin: auto;
     }
   }
 
@@ -438,20 +440,13 @@ nav {
   width: 100%;
 }
 
-.image-row {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  width: 100%;
-}
 
 @media (min-width: 576px)  {
   .image-row {
-    /* Prilagođeni stilovi samo za veličinu ekrana od 480 piksela */
     display: block;
-    /* justify-content: initial; */
-    margin-bottom: 10px;
-    width: 80%;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    width: 100%;
   }
 }
 
@@ -461,14 +456,31 @@ nav {
     display: flex;
     /* justify-content: initial; */
     margin-bottom: 10px;
-    width: 80%;
+    width: 100%;
   }
 }
 
-.image-column {
+/* .image-column {
   position: relative;
   margin-right: 20px;
   flex: 1;
+} */
+
+@media (min-width: 576px) {
+  .image-column {
+    position: relative;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    flex: 1;
+  }
+}
+
+@media (min-width: 1201px) {
+  .image-column {
+    position: relative;
+    margin-right: 20px;
+    flex: 1;
+  }
 }
 
 .image-column:last-child {
