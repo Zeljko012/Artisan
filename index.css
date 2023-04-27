@@ -439,11 +439,11 @@ nav {
   width: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 1080px) and (max-width: 2400px) {
   .image-row {
     /* Prilagođeni stilovi samo za veličinu ekrana od 480 piksela */
     display: block;
-    justify-content: initial;
+    /* justify-content: initial; */
     margin-bottom: 10px;
     width: 80%;
   }
