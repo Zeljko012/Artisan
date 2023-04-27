@@ -633,10 +633,20 @@ nav {
 
 }
 
-.shop-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-  gap: 1.5rem;
+@media (min-width: 576px) {
+  .shop-content {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .shop-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+  }
 }
 
 .product-box {
