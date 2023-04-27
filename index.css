@@ -371,7 +371,7 @@ nav {
     margin: auto;
   }
 
-  @media (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 480px) {
     .container2 {
       width: 100%;
     }
@@ -439,9 +439,13 @@ nav {
   width: 100%;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .image-row {
+    /* Prilagođeni stilovi samo za veličinu ekrana od 480 piksela */
     display: block;
+    justify-content: initial;
+    margin-bottom: 10px;
+    width: 80%;
   }
 }
 
