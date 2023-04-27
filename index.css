@@ -371,7 +371,13 @@ nav {
     margin: auto;
   }
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 1200px) {
+    .container2 {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 576px) {
     .container2 {
       width: 100%;
     }
@@ -439,10 +445,20 @@ nav {
   width: 100%;
 }
 
-@media (min-width: 1080px) and (max-width: 2400px) {
+@media (min-width: 576px)  {
   .image-row {
     /* Prilagođeni stilovi samo za veličinu ekrana od 480 piksela */
     display: block;
+    /* justify-content: initial; */
+    margin-bottom: 10px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-row {
+    /* Prilagođeni stilovi samo za veličinu ekrana od 480 piksela */
+    display: flex;
     /* justify-content: initial; */
     margin-bottom: 10px;
     width: 80%;
