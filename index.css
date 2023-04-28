@@ -871,6 +871,20 @@ nav {
   }
 }
 
+@media (min-width: 576px) {
+  .item-1 {
+    width: 80%;
+    margin: 20px;
+  }
+}
+
+/* @media (min-width: 1201px) {
+  .item-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+} */
+
 .column-4 {
   text-align: right;
 }
