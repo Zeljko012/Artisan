@@ -809,12 +809,28 @@ nav {
   flex-direction: column;
 }
 
-.fos-h2 {
-  font-size: 50px;
+@media (min-width: 576px) {
+  .fos-h2 {
+    font-size: 50px;
+  }
 }
 
-.fos-p {
-  font-size: 22px;
+@media (min-width: 1201px) {
+  .fos-h2 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .fos-p {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .fos-p {
+    font-size: 22px;
+  }
 }
 
 .group2 {
