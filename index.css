@@ -857,9 +857,18 @@ nav {
   text-align: left;
 }
 
-.flex-box {
-  display: flex;
-  justify-content: space-between;
+@media (min-width: 576px) {
+  .flex-box {
+    display: block;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1201px) {
+  .flex-box {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .column-4 {
