@@ -669,6 +669,7 @@ nav {
     position: relative;
     background-color: #fff;
     padding: 20px;
+    text-align: left;
   }
 }
 
@@ -705,6 +706,7 @@ nav {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
+    text-align: left;
   }
 }
 
@@ -724,6 +726,7 @@ nav {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
+    text-align: left;
   }
 }
 
