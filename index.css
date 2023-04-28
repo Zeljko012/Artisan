@@ -841,14 +841,28 @@ nav {
   position: relative;
 }
 
-.form .group label {
-  font-size: 14px;
-  color: rgb(99, 102, 102);
-  position: absolute;
-  top: -10px;
-  left: 10px;
-  background-color: #fff;
-  transition: all .3s ease;
+@media (min-width: 576px) {
+  .form .group label {
+    font-size: 22px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+  }
+}
+
+@media (min-width: 1201px) {
+  .form .group label {
+    font-size: 14px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+  }
 }
 
 .form .group input,
@@ -886,16 +900,32 @@ nav {
   height: 100px;
 }
 
-.form button {
-  background-color: transparent;
-  color: #333;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-align: left;
+@media (min-width: 576px) {
+  .form button {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1201px) {
+  .form button {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+  }
 }
 
 @media (min-width: 576px) {
@@ -954,30 +984,61 @@ nav {
 }
 
 /* Stilovi za padajući meni */
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png') no-repeat right center;
-  background-size: 16px 16px;
-  padding: 8px 28px 8px 10px;
-  font-size: 14px;
-  /* line-height: 1.4; */
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  color: #333;
-  max-width: 100%;
-  transition: max-height 0.3s ease-in-out;
-  max-height: 40px;
-  overflow: hidden;
-    padding-right: 20px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-  outline: 0;
-  width: 100%;
-  background-color: transparent;
+
+@media (min-width: 576px) {
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png') no-repeat right center;
+    background-size: 16px 16px;
+    padding: 8px 28px 8px 10px;
+    font-size: 20px;
+    /* line-height: 1.4; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    max-width: 100%;
+    transition: max-height 0.3s ease-in-out;
+    max-height: 40px;
+    overflow: hidden;
+      padding-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 1201px) {
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png') no-repeat right center;
+    background-size: 16px 16px;
+    padding: 8px 28px 8px 10px;
+    font-size: 14px;
+    /* line-height: 1.4; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    max-width: 100%;
+    transition: max-height 0.3s ease-in-out;
+    max-height: 40px;
+    overflow: hidden;
+      padding-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
 }
 
 /* Stilovi za opcije u padajućem meniju */
