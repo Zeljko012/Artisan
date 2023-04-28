@@ -679,7 +679,7 @@ nav {
 
 @media (min-width: 576px) {
   .product-img {
-    width: 50%;
+    width: 70%;
     height: auto;
     margin-bottom: 0.5rem;
   }
