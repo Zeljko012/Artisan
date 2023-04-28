@@ -695,7 +695,7 @@ nav {
 
 @media (min-width: 576px) {
   .product-title {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -715,7 +715,7 @@ nav {
 
 @media (min-width: 576px) {
   .product-des {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
