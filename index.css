@@ -613,7 +613,7 @@ nav {
 @media (min-width: 576px) {
   .section-title {
     padding-bottom: 0.5rem;
-    font-size: 3.12rem;
+    font-size: 4rem;
     font-weight: 600;
     text-align: center;
   }
@@ -695,7 +695,7 @@ nav {
 
 @media (min-width: 576px) {
   .product-title {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -715,7 +715,7 @@ nav {
 
 @media (min-width: 576px) {
   .product-des {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -733,19 +733,44 @@ nav {
   }
 }
 
-.price {
-  font-weight: 600;
+@media (min-width: 576px) {
+  .price {
+    font-weight: 600;
+    font-size: 30px;
+  }
 }
 
-.add-cart {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 10px;
-  /* background: #000; */
-  /* color: #fff; */
-  /* padding: 10px; */
-  cursor: pointer;
+@media (min-width: 1201px) {
+  .price {
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 576px) {
+  .add-cart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    /* background: #000; */
+    /* color: #fff; */
+    /* padding: 10px; */
+    cursor: pointer;
+    width: 40px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .add-cart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    /* background: #000; */
+    /* color: #fff; */
+    /* padding: 10px; */
+    cursor: pointer;
+  }
 }
 
 /* Breakpoints / Making Responsive  */
@@ -885,8 +910,17 @@ nav {
   }
 } */
 
-.column-4 {
-  text-align: right;
+
+@media (min-width: 576px) {
+  .column-4 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1201px) {
+  .column-4 {
+    text-align: right;
+  }
 }
 
 .column-4 img {
