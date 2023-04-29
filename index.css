@@ -994,15 +994,30 @@ nav {
   }
 }
 
-.form .group input,
-.form .group textarea {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-  outline: 0;
-  width: 100%;
-  background-color: transparent;
+@media (min-width: 576px) {
+  .form .group input,
+  .form .group textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 1201px) {
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
 }
 
 .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
