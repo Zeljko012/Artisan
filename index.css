@@ -1313,7 +1313,7 @@ select option:hover {
 
 @media (min-width: 576px) {
   .small-img {
-    display: flex;
+    display: block;
     /* padding-right: 5px; */
     padding-top: 3px;
     padding-bottom: 5px;
@@ -1332,8 +1332,16 @@ select option:hover {
   padding-right: 5px;
 } */
 
-.small-img img {
-  width: 50%;
+@media (min-width: 576px) {
+  .small-img img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .small-img img {
+    width: 50%;
+  }
 }
 
 .right-section img {
