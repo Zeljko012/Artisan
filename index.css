@@ -348,11 +348,22 @@ nav {
   right: 0;
 }
 
-.cart-title {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-top: 2rem;
+@media (min-width: 576px) {
+  .cart-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .cart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
 }
 
 .cart-box {
@@ -375,13 +386,32 @@ nav {
   row-gap: 0.5rem;
 }
 
-.cart-product-title {
-  font-size: 1rem;
-  text-transform: uppercase;
+@media (min-width: 576px) {
+  .cart-product-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
 }
 
-.cart-price {
-  font-weight: 500;
+@media (min-width: 1201px) {
+  .cart-product-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 576px) {
+  .cart-price {
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .cart-price {
+    font-weight: 500;
+    font-size: 20px;
+  }
 }
 
 .cart-quantity {
@@ -392,10 +422,20 @@ nav {
   font-size: 1rem;
 }
 
-.cart-remove {
-  font-size: 20px;
-  color: var(--main-color);
-  cursor: pointer;
+@media (min-width: 576px) {
+  .cart-remove {
+    font-size: 30px;
+    color: var(--main-color);
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1201px) {
+  .cart-remove {
+    font-size: 20px;
+    color: var(--main-color);
+    cursor: pointer;
+  }
 }
 
 #cart-icon {
@@ -409,13 +449,32 @@ nav {
   border-top: 1px solid black;
 }
 
-.total-title {
-  font-size: 1rem;
-  font-weight: 600;
+@media (min-width: 576px) {
+  .total-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 }
 
-.total-price {
-  margin-left: 0.5rem;
+@media (min-width: 1201px) {
+  .total-title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 576px) {
+  .total-price {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .total-price {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
 }
 
 .btn-buy {
@@ -441,6 +500,20 @@ nav {
   font-size: 2rem;
   color: var(--text-color);
   cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .total-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1201px) {
+  .total-title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
 }
 /* Cart end  */
 
