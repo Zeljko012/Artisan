@@ -108,14 +108,27 @@ nav {
     /* margin-left: 40px; */
     /* position: absolute; */
   }
+
+  @media (min-width: 576px) {
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 40px;
+      height: 25px;
+      cursor: pointer;
+    }
+  }
   
-  .hamburger-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 40px;
-    height: 25px;
-    cursor: pointer;
+  @media (min-width: 1201px) {
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 25px;
+      height: 20px;
+      cursor: pointer;
+    }
   }
   
   .hamburger-menu .bar {
