@@ -1243,12 +1243,26 @@ select option:hover {
   }
 }
 
-.lr-images-wrapper {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
+@media (min-width: 576px) {
+  .lr-images-wrapper {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .lr-images-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
 }
 
 
@@ -1291,7 +1305,7 @@ select option:hover {
 @media (min-width: 576px) {
   .lr-item-3 {
     display: block;
-    width: 95%;
+    /* width: 95%; */
     padding: 5px;
     background-color: #fff;
     margin: auto;
