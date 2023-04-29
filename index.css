@@ -1212,6 +1212,20 @@ select option:hover {
 
 .lr-first-section {
   padding-top: 280px;
+  width: fit-content;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  .column-4 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1201px) {
+  .column-4 {
+    text-align: right;
+  }
 }
 
 .lr-images-wrapper {
