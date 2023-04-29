@@ -312,7 +312,25 @@ nav {
 }
 
 /* Cart start  */
-.cart {
+
+
+@media (min-width: 576px) {
+  .cart {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    /* min-height: 1000px; */
+    padding: 20px;
+    background: var(--bg-color);
+    background-color: #fff;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition: 0.3s;
+}
+}
+
+@media (min-width: 1201px) {
+  .cart {
     position: fixed;
     top: 0;
     right: -100%;
@@ -323,6 +341,7 @@ nav {
     background-color: #fff;
     box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
     transition: 0.3s;
+}
 }
 
 .cart.active {
