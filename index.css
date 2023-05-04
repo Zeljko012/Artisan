@@ -1397,6 +1397,29 @@ select option:hover {
   font-size: 50px;
 }
 
+.flex-box-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-h3, a {
+  text-decoration: none;
+  color: #000;
+}
+
+.border-top {
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  margin-top: 150px;
+}
+
+.copyright-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+
 
 
 
