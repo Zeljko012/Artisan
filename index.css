@@ -842,7 +842,7 @@ nav {
 
 @media (min-width: 576px) {
   .product-title {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -883,7 +883,7 @@ nav {
 @media (min-width: 576px) {
   .price {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
