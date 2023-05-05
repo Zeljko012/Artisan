@@ -1421,11 +1421,7 @@ select option:hover {
   width: 100%;
 }
 
-@media (min-width: 576px) {
-  .big-img {
-    /* padding-right: 5px; */
-  }
-}
+
 
 @media (min-width: 1201px) {
   .big-img {
@@ -1521,10 +1517,6 @@ select option:hover {
   }
 }
 
-.item-1-footer, img {
-  /* width: 50%; */
-  /* text-align: center; */
-}
 
 @media (min-width: 576px) {
   #footer-img {
