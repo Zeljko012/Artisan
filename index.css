@@ -40,7 +40,7 @@ nav {
 
   @media (min-width: 576px) {
     .logo img{
-      font-size: 50px;
+      width: 220px;
       font-weight: bold;
       color: #333;
       text-decoration: none;
@@ -299,7 +299,7 @@ nav {
   .nav-links a {
     font-family: 'Georgia pro', serif;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 38px;
   }
 }
 
@@ -1447,6 +1447,11 @@ select option:hover {
     justify-content: space-between;
     padding: 10px;
   }
+}
+
+.item-1-footer {
+  width: 50%;
+  text-align: center;
 }
 
 
