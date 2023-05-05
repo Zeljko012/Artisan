@@ -847,8 +847,8 @@ nav {
 }
 
 @media (min-width: 576px) {
-  .product-des, p{
-    font-size: 20px;
+  .product-des {
+    font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -857,7 +857,7 @@ nav {
 }
 
 @media (min-width: 1201px) {
-  .product-des, p {
+  .product-des {
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
