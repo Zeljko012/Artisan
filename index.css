@@ -745,25 +745,25 @@ nav {
 
 @media (min-width: 576px) {
   #is-h3 {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 
 @media (min-width: 1201px) {
   #is-h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
 @media (min-width: 576px) {
   #is-p {
-    font-size: 20px;
+    font-size: 28px;
   }
 }
 
 @media (min-width: 1201px) {
   #is-p {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
@@ -888,7 +888,7 @@ nav {
 
 @media (min-width: 1201px) {
   .product-des {
-    font-size: 0.8rem;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
