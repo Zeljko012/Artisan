@@ -1449,10 +1449,25 @@ select option:hover {
   }
 }
 
-.item-1-footer {
-  width: 50%;
-  text-align: center;
-  margin: 0 auto;
+.item-1-footer, img {
+  /* width: 50%; */
+  /* text-align: center; */
+}
+
+
+
+@media (min-width: 576px) {
+  .item-1-footer, img {
+    /* width: 50%; */
+    /* text-align: center; */
+  }
+}
+
+@media (min-width: 1201px) {
+  .item-1-footer, img {
+    /* width: 40%; */
+    /* text-align: center; */
+  }
 }
 
 
