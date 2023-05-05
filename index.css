@@ -540,7 +540,7 @@ nav {
   }
 
   .background-img {
-    background-image: url('images/background.png');
+    background-image: url('images/background.webp');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -974,7 +974,7 @@ nav {
 @media (min-width: 576px) {
   .form .group label {
     font-size: 22px;
-    color: rgb599, 102, 102);
+    color: rgb(599, 102, 102);
     position: absolute;
     top: -10px;
     left: 10px;
