@@ -558,10 +558,6 @@ nav {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    mask-image: url('images/overlay.png');
-    mask-repeat: no-repeat;
-    mask-position: center;
-    mask-size: cover;
     height: 100vh;
     margin: 0%;
     /* opacity: 0.5; */
