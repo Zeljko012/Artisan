@@ -401,7 +401,7 @@ nav {
   }
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .sales-page-p, p {
     font-size: 25px;
     text-transform: uppercase;
@@ -413,7 +413,7 @@ nav {
     font-size: 14px;
     text-transform: uppercase;
   }
-}
+} */
 
 @media (min-width: 576px) {
   .cart-price {
