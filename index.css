@@ -743,12 +743,28 @@ nav {
   padding-left: 10px;
 }
 
-#is-h3 {
-  font-size: 25px;
+@media (min-width: 576px) {
+  #is-h3 {
+    font-size: 28px;
+  }
 }
 
-#is-p {
-  font-size: 20px;
+@media (min-width: 1201px) {
+  #is-h3 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 576px) {
+  #is-p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1201px) {
+  #is-p {
+    font-size: 24px;
+  }
 }
 
 
