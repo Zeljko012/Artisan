@@ -756,6 +756,11 @@ nav {
   }
 }
 
+.section-title2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
 
 
 .shop-content {
@@ -842,8 +847,8 @@ nav {
 }
 
 @media (min-width: 576px) {
-  .product-des {
-    font-size: 25px;
+  .product-des, p{
+    font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -852,7 +857,7 @@ nav {
 }
 
 @media (min-width: 1201px) {
-  .product-des {
+  .product-des, p {
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -1004,7 +1009,7 @@ nav {
     margin-bottom: 20px;
     outline: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: #fafafa;
   }
 }
 
@@ -1017,7 +1022,7 @@ nav {
     margin-bottom: 20px;
     outline: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: #fafafa;
   }
 }
 
