@@ -46,12 +46,13 @@ nav {
       text-decoration: none;
       margin-left: auto;
       margin-right: auto;
+      padding-top: 20px;
     }
   }
   
   @media (min-width: 1201px) {
     .logo img{
-      font-size: 28px;
+      width: 200px;
       font-weight: bold;
       color: #333;
       text-decoration: none;
@@ -1424,6 +1425,7 @@ select option:hover {
   #footer-h3, a {
     text-decoration: none;
     color: #000;
+    font-size: 25px;
   }
 }
 
@@ -1454,21 +1456,25 @@ select option:hover {
   /* text-align: center; */
 }
 
-
-
 @media (min-width: 576px) {
-  .item-1-footer, img {
-    /* width: 50%; */
+  #footer-img {
+    width: 250px;
     /* text-align: center; */
+    /* margin: 0 auto; */
   }
 }
 
 @media (min-width: 1201px) {
-  .item-1-footer, img {
-    /* width: 40%; */
+  #footer-img {
+    width: 200px;
     /* text-align: center; */
+    /* margin: none; */
   }
 }
+
+
+
+
 
 
 
