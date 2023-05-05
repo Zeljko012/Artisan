@@ -1506,13 +1506,13 @@ select option:hover {
 }
 
 @media (min-width: 576px) {
-  #copyright {
+  #copyright, h4 {
   font-size: 22px;
   }
 }
 
 @media (min-width: 1201px) {
-  #copyright {
+  #copyright, h4 {
     font-size: 20px;
   }
 }
