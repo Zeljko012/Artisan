@@ -45,3 +45,15 @@
       font-size: 18px;
     }
   }
+
+  @media (min-width: 576px) {
+    #bar-stools-copyright, h4 {
+    font-size: 22px;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    #bar-stools-copyright, h4 {
+      font-size: 20px;
+    }
+  }
