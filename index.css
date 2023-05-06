@@ -1427,13 +1427,13 @@ select option:hover {
 
 /* Article pages start  */
 
-.sofas-fs {
+/* .sofas-fs {
   padding-top: 370px;
 }
 
 .sofas-price-wrapper {
   display: flex;
-}
+} */
 
 .status-wrapper {
   display: flex;
@@ -1443,10 +1443,10 @@ select option:hover {
   margin: 0%;
 }
 
-.sofas-h1 {
+/* .sofas-h1 {
   text-align: center;
   font-size: 50px;
-}
+} */
 
 @media (min-width: 576px) {
   .flex-box-footer {
