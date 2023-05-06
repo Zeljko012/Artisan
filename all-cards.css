@@ -1,6 +1,26 @@
 @media (min-width: 576px) {
+  .product-title {
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1201px) {
+  .product-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+}
+
+@media (min-width: 576px) {
     .product-des {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 600;
       /* text-transform: uppercase; */
       margin-bottom: 0.5rem;
@@ -35,7 +55,7 @@
   @media (min-width: 576px) {
     .sales-page, h3 {
       font-weight: 600;
-      font-size: 24px;
+      font-size: 26px;
     }
   }
   
@@ -48,7 +68,7 @@
 
   @media (min-width: 576px) {
     #copyright, h4 {
-    font-size: 18px;
+    font-size: 16px;
     }
   }
   
