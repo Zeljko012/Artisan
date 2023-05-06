@@ -1503,7 +1503,7 @@ select option:hover {
 
 @media (min-width: 576px) {
   #copyright, h4 {
-  font-size: 22px;
+  font-size: 20px;
   }
 }
 
