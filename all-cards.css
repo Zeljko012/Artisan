@@ -18,7 +18,33 @@
   }
 }
 
+.product-des {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
 
+/* @media (min-width: 576px) {
+    .product-des {
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .product-des {
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+  } */
 
   @media (min-width: 576px) {
     .price {
