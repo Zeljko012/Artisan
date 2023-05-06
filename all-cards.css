@@ -75,13 +75,13 @@
   }
 
   @media (min-width: 576px) {
-    #copyright, h4 {
-    font-size: 16px;
+    #copyright {
+    font-size: 22px;
     }
   }
   
   @media (min-width: 1201px) {
-    #copyright, h4 {
+    #copyright {
       font-size: 20px;
     }
   }
