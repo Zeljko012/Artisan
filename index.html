@@ -1,231 +1,197 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-	<title>Artisan</title>
-  <link rel="stylesheet" type="text/css" href="./all-cards.css">
-  <link rel="stylesheet" type="text/css" href="./index.css">
-</head>
-<body>
-    <div class="background-img">
-        <header>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <title>Željko Prović</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=SF+Pro">
+
+    </head>
+    <body>
+        <nav>
+            <div class="logo">Zeljko Provic</div>
+            <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+            <ul class="navigation">
+                <li><a href="#home-section">HOME</a></li>
+                <li><a href="#projects-section">PROJECTS</a></li>
+                <li><a href="#about-me-section">ABOUT ME</a></li>
+                <li><a href="#contact-section">CONTACT</a></li>
+            </ul>
+        </nav>
+
+          
+          <main>
             <div class="container">
-                <nav>
-                    <div class="nav-container">
-                        <div class="search-container">
-                            <div class="hamburger-menu">
-                                <div class="bar"></div>
-                                <div class="bar"></div>
-                                <div class="bar"></div>
+                <section id="home-section">
+                        <div class="flex-box">
+                            <div class="item-1">
+                                <div class="column-1">
+                                    <h1 class="fs-h1">HEY, I'M ZELJKO PROVIC</h1>
+                                </div>
+                                <div class="column-2">
+                                    <h2 class="fs-h2">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</h2>
+                                </div>
+                                <div class="column-3">
+                                    <div class="in-git">
+                                        <a href="https://www.linkedin.com/in/%C5%BEeljko-provi%C4%87/">
+                                            <img class="in-img" src="images/Linkedin-img.webp">
+                                        </a>
+                                        <a href="https://github.com/Zeljko012">
+                                            <img class="git-img" src="images/Git-img.webp">
+                                        </a>
+                                    </div>
+                                    <div class="tech-stack">
+                                        <img class="tech-stack-img-1" src="images/html5.webp">
+                                        <img class="tech-stack-img-1" src="images/css3.webp">
+                                        <img class="tech-stack-img-1" src="images/js 1 1.webp">
+                                        <img src="images/reactjs.webp">
+                                    </div>
+                                </div>
                             </div>
-                            <!-- <button type="submit"><i class="fa fa-search"></i>Search </button> -->
-                            <input type="text" placeholder="Search..."> 
+                            <div class="item-2">
+                                <section class="image-section"></section>
+                                    <img src="images/Portfolio-image.webp">
+                                </section>
+                            </div>
                         </div>
-                            <a href="index.html" class="logo"> <img src=images/logo.webp></a>
-                        <div class="nav-links">
-                            <!-- <a href="#">Account</a> -->
-                            <a id="cart-icon">Cart</a>
+                </section>
+            </div>
+
+            <div class="container">
+                <section id="projects-section">
+                    <h2 class="ss-h2">Recent projects</h2>
+                    <div class="ss-btn-wrapper">
+                    <button class="ss-btn-yellow"></button>
+                    </div>
+                    <h4 class="ss-h4">Here you will find projects that I have made myself, from which you can see the current level of my knowledge.</h4>
+                    <div class="flex-box3">
+                        <div class="item-3">
+                            <div class="column-4">
+                                <img class="iphone-img" clas="artisan-img" src="images/mockup 1 iphone.webp">
+                            </div>
+                        </div>
+                        <div class="item-4">
+                            <div class="column-5">
+                                <h3 class="ss-h3">Artisan</h3>
+                            </div>
+                            <div class="column-6">
+                                <p class="ss-p">The idea of ​​this page is to be an online store of a furniture salon where you can order the desired article, JavaScript, Html, Css and GitHub were used to create this page.</p>
+                            </div>
+                            <div class="column-7">
+                                <button class="project-btn" onclick="window.location.href='https:zeljko012.github.io/Artisan/'">Visit site</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="sidebar">
-                        <a href="living-room.html">Living room</a>
-                        <a href="kitchen.html">Kitchen</a>
-                        <a href="bathroom.html">Bathroom</a>
-                        <a href="bedroom.html">Bedroom</a>
+                    <div class="flex-box2">
+                        <div class="item-5">
+                            <div class="column-8">
+                                <h3 class="ss-h3">Ime projekta</h3>
+                            </div>
+                            <div class="column-9">
+                                <p class="ss-p">Lorem ipsum dolor sit amet consectetur. Bibendum sit urna turpis molestie facilisi. Cras vestibulum enim aenean viverra egestas sit habitant. </p>
+                            </div>
+                            <div class="column-10">
+                                <button class="project-btn" onclick="window.location.href='proba.html'">Visit site </button>
+                            </div>
+                        </div>
+                        <div class="item-6">
+                            <img class="laptop-img" src="images/mockup laptop 1.webp">
+                        </div>
                     </div>
-                    <!-- Cart  -->
-                    <div class="cart">
-                      <h2 class="cart-title">Your Cart</h2>
-                    <!-- Content  -->
-                      <div class="cart-content">
 
-                      </div>
-                      <!-- Total  -->
-                      <div class="total">
-                        <div class="total-title">Total</div>
-                        <div class="total-price">$0</div>
-                      </div>
-                      <!-- Buy Button  -->
-                      <button type="button" class="btn-buy">Buy Now</button>
-                      <!-- Cart Close  -->
-                      <img id="close-cart" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMFJREFUSEvtlNEJwzAMRC+btJukm3SVTtJukozSUcqDBoJrS2eC6U8MIZgo9ySd5UmD1zRYXycg7fDfW3SX9ArSvEiao5ioAsSfkt6SrhUI4nzn/WhBIgA/Ll+BErKJk/0q6daqMvOgBrHFgWYAYkoI1aSZbxU5gBLCPmzLvl09AAwlc1bL+B8rHEDZc/Y8FiQD1AyNTldXBdFpsSHOoLUM3UOYA+K6KiDYuSoAVcXdOUhvzCggM/mQ+FmB1b7hHnwAC+InGed+jX8AAAAASUVORK5CYII="/>
-                    </div>
-                </nav>
+                </section>
             </div>
-        </header>
+            
+            <div class="container">
+                <section id="about-me-section">
+                    <div class="flex-box4">
+                        <div class="item-7">
+                    <h2 class="ts-h2">About me</h2>
 
-        <div class="container2">
-            <div class="first-section">
-                <h1 class="fs-h1">Blending styles</h1>
-                <h3 class="fs-h3">Transform your home to transform your life</h3>
+                            <p class="ts-p">I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. <br><br>
+                                During my independent study and research, which lasted for 3 years, I learned a lot of things and I hope that I will get the opportunity to prove it and make the work of the team I work in easier with my knowledge.<br><br>
+                                I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me. </p>
+                        </div>
+                        <div class="item-8">
+                            <h3 class="skills-title">My Skills</h3>
+                            <div class="skills">
+                                <div class="skills-skill">HTML</div>
+                                <div class="skills-skill">CSS</div>
+                                <div class="skills-skill">JavaScript</div>
+                                <div class="skills-skill">React</div>
+                                <div class="skills-skill">SASS</div>
+                                <div class="skills-skill">GIT</div>
+                                <div class="skills-skill">Github</div>
+                                <div class="skills-skill">Responsive Design</div>
+                                <div class="skills-skill">Webflow</div>
+                                <div class="skills-skill">FIGMA</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </div>
-    </div>
-
-    <div class="container2">
-        <div class="second-section">
-            <section class="image-section">
-                <div class="image-row">
-                  <div class="image-column">
-                      <img src="images/img1.webp" alt="Slika 1">
-                    <div class="image-description">
-                      <div class="id-wrapper">
-                        <h3 id="is-h3">Living rooms</h3>
-                        <p id="is-p">Create a living room that reflects your <br> unique style and personality with our <br> carefully selected collection of furniture <br> pieces. From cozy sofas to elegant coffee <br> tables,  everything you need to make your <br> space feel like home. Browse our collection <br> now and find inspiration.</p>
-                        <a href="living-room.html" target="_blank">
-                          <img id="is-arrow" src="images/arrowcircleright2.webp">
-                        </a>
-                      </div>  
-                    </div>
-                  </div>
-                  <div class="image-column">
-                    <img src="images/img2.webp" alt="Slika 1">
-                    <div class="image-description">
-                      <div class="id-wrapper">
-                        <h3 id="is-h3">Kitchen</h3>
-                        <p id="is-p">Elevate your cooking and dining experience with <br> our modern kitchen furniture collection. Explore <br> our range of sleek and functional kitchen islands, <br> bar stools, dining tables, and more to transform <br> your space into a culinary haven. Discover the <Br> perfect pieces to make your kitchen both stylish <br> and functional.</p>
-                        <a href="kitchen.html" target="_blank">
-                          <img id="is-arrow" src="images/arrowcircleright2.webp">
-                        </a>
-                      </div>  
-                    </div>
-                  </div>
+            <section id="contact-section">
+                <div class="container">
+                    <h2 class="fos-h2">CONTACT</h2>
+                    <form id="my-form">
+                        <table>
+                          <tr>
+                            <td><input type="text" id="name" name="name" placeholder="Name:" required></td>
+                          </tr>
+                          <tr>
+                            <td><input type="email" id="email" name="email" placeholder="E-mail:" required></td>
+                          </tr>
+                          <tr>
+                            <td><textarea id="message" name="message" placeholder="Message:" required></textarea></td>
+                          </tr>
+                        </table>
+                        <br>
+                        <input type="submit" value="Submit">
+                        <script type="text/javascript"
+                            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                            </script>
+                            <script type="text/javascript">
+                            (function(){
+                                emailjs.init("D9y-61vOaC1eaMqZb");
+                            })();
+                            </script>
+                      </form>
+                      
+                    
+                      
+                      
+                      
                 </div>
-                <div class="image-row">
-                  <div class="image-column">
-                    <img src="images/img3.webp" alt="Slika 1">
-                    <div class="image-description">
-                      <div class="id-wrapper">
-                        <h3 id="is-h3">Bathroom</h3>
-                        <p id="is-p">Transform your bathroom into a luxurious and <br> relaxing retreat with our modern furniture <br> collection. Discover our range of functional and <br> stylish vanities, cabinets, and mirrors, designed to <br> elevate your space and simplify your daily routine. <br> Explore our selection now and create your dream <br> bathroom.</p>
-                        <a href="bathroom.html" target="_blank">
-                          <img id="is-arrow" src="images/arrowcircleright2.webp">
-                        </a>
-                      </div>
+            </section>
+            <section id="footer-section">
+                <div class="container">
+                    <div class="flex-box">
+                        <div class="item-9">
+                            <div class="column-11">
+                                <h3 class="fus-h3">ZELJKO PROVIC</h3>
+                            </div>
+                            <div class="column-12">
+                                <a href="https://www.linkedin.com/in/%C5%BEeljko-provi%C4%87/">
+                                    <img class="fus-img" src="images/Linkedin-img.webp">
+                                </a>
+                                <a href="https://github.com/Zeljko012">
+                                    <img class="fus-img" src="images/Git-img.webp">
+                                </a>
+                                  
+                            </div>
+                        </div>
+                        <div class="item-10">
+                            <h3 class="fus-nav-h3">MAIL</h3>
+                            <a href="mailto:proviczeljko@gmail.com">
+                                <h3 class="fus-nav-h3">proviczeljko@gmail.com</h3>
+                            </a>
+                        </div>
+                        <div class="item-11"></div>
                     </div>
-                  </div>
-                  <div class="image-column">
-                    <img src="images/img4.webp" alt="Slika 1">
-                    <div class="image-description">
-                      <div class="id-wrapper">
-                        <h3 id="is-h3">Bedroom</h3>
-                        <p id="is-p">Design your dream bedroom with our curated <br> collection of modern and stylish furniture pieces. <br> From comfortable and chic beds to elegant <br> dressers and nightstands, our collection has <br> everything you need to create a peaceful and <br> inviting space. Browse our selection and transform <br> your bedroom into a haven of comfort and style.</p>
-                        <a href="bedroom.html" target="_blank">
-                          <img id="is-arrow" src="images/arrowcircleright2.webp">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </section>
-              
-        </div>
-    </div>
+            </section>
 
-
-
-    <div class="container2">
-      <div class="third-section">
-        <!-- Shop  -->
-        <section class="shop container">
-          <h2 class="section-title">On Sale</h2>
-          <!-- Content -->
-          <div class="shop-content">
-            <!-- Box 1  -->
-            <div class="product-box">
-              <img src="images/shelves-img-3.webp" class="product-img">
-              <h2 class="product-title">Palisades</h2>
-              <span class="price">$360</span>
-              <img src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANBJREFUSEvtlckNAjEQBGszgUwgE4gEiAQRCWQCmYBaspHv2QOLz/pjyWNP9bSvgc5t6JyfsYAdcALUv4AHcHN9U+MYwAG4VrJcgHOLYAGk+O4S+GQbQFBVpLZvVWIBpFzJSkp9ZbJLkGKzAE9AirfO+zCJxhXXnig+C/B2q2pCrHh2iuS3fF/SoopSZV7REoDWfvPWAH7csiCNZ/P/Dphq1eQKVkB2D6xTY1m27oHlEKZFv3iLouc7vcnh12jKLUzQQ3cMPyDrP5gDidZ0B3wAmnU0GbcMQx8AAAAASUVORK5CYII=" class="add-cart"/>
-          </div>
-          <!-- Box 2  -->
-          <div class="product-box">
-            <img src="images/shelves-img-2.webp" class="product-img">
-            <h2 class="product-title">Monterey</h2>
-            <span class="price">$120</span>
-            <img src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANBJREFUSEvtlckNAjEQBGszgUwgE4gEiAQRCWQCmYBaspHv2QOLz/pjyWNP9bSvgc5t6JyfsYAdcALUv4AHcHN9U+MYwAG4VrJcgHOLYAGk+O4S+GQbQFBVpLZvVWIBpFzJSkp9ZbJLkGKzAE9AirfO+zCJxhXXnig+C/B2q2pCrHh2iuS3fF/SoopSZV7REoDWfvPWAH7csiCNZ/P/Dphq1eQKVkB2D6xTY1m27oHlEKZFv3iLouc7vcnh12jKLUzQQ3cMPyDrP5gDidZ0B3wAmnU0GbcMQx8AAAAASUVORK5CYII=" class="add-cart"/>
-          </div>
-          <!-- Box 3  -->
-          <div class="product-box">
-            <img src="images/tables-img-2.webp" class="product-img">
-            <h2 class="product-title">Harborview</h2>
-            <span class="price">$120</span>
-            <img src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANBJREFUSEvtlckNAjEQBGszgUwgE4gEiAQRCWQCmYBaspHv2QOLz/pjyWNP9bSvgc5t6JyfsYAdcALUv4AHcHN9U+MYwAG4VrJcgHOLYAGk+O4S+GQbQFBVpLZvVWIBpFzJSkp9ZbJLkGKzAE9AirfO+zCJxhXXnig+C/B2q2pCrHh2iuS3fF/SoopSZV7REoDWfvPWAH7csiCNZ/P/Dphq1eQKVkB2D6xTY1m27oHlEKZFv3iLouc7vcnh12jKLUzQQ3cMPyDrP5gDidZ0B3wAmnU0GbcMQx8AAAAASUVORK5CYII=" class="add-cart"/>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <div class="container2">
-      <div class="fourth-section">
-        <div class="flex-box">
-          <div class="item-1">
-            <div class="column-1">
-              <h2 class="fos-h2">Order a custom <br> piece </h2>
-            </div>
-            <div class="column-2">
-              <p class="fos-p">We believe that your furniture should be as <br> unique as you are. Our expert craftsmen can <br> create one-of-a-kind pieces that perfectly <br> match your style and needs.</p>
-            </div>
-            <div class="column-3">
-              <div class="card">
-                <form class="form">
-                  <div class="group">
-                  <input placeholder="‎" type="text" required="">
-                  <label for="name">Name</label>
-                  </div>
-              <div class="group">
-                  <input placeholder="‎" type="email" id="email" name="email" required="">
-                  <label for="email">Email</label>
-                  </div>
-              <div class="group">
-                  <textarea placeholder="‎" id="comment" name="comment" rows="5" required=""></textarea>
-                  <label for="comment">Comment</label>
-              </div>
-                  <button type="submit">Send a message</button>
-                </form>
-              </div>
-              
-            </div>
-          </div>
-          <div class="item-2">
-            <div class="column-4">
-              <img src="images/image 4.webp">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="border-top">
-      <div class="border"></div>
-    </div>
-
-    <div class="container2">
-      <div class="footer-section">
-        <div class="flex-box-footer">
-          <div class="item-1-footer">
-            <img id="footer-img" src="images/logo.webp">
-          </div>
-          <div class="item-2-footer">
-            <h3 id="footer-h3"><a href="living-room.html">Living room</a></h3>
-            <h3 id="footer-h3"><a href="kitchen.html">Kitchen</a></h3>
-            <h3 id="footer-h3"><a href="bathroom.html">Bathroom</a></h3>
-            <h3 id="footer-h3"><a href="bedroom.html">Bedroom</a></h3>
-          </div>
-          <div class="item-3-footer">
-            <h3 id="footer-h3"><a href="https://www.example.com">info@artisanfurniture.com</a></h3>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="copyright-wrapper">
-      <h4 id="copyright">Artisan Furniture 2023</h4>
-      <h4 id="copyright">Privacy Policy</h4>
-    </div>
-      
-
-      
-    <script src="index.js"></script>
-</body>
+          </main>
+        <script src="index.js"></script>
+          
+    </body>
 </html>
