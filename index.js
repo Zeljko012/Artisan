@@ -47,22 +47,6 @@ function showCards() {
   }
 }
 
-// prevButton.addEventListener('click', function() {
-//   currentIndex--;
-//   if (currentIndex < 0) {
-//     currentIndex = galleryCards.length - 3;
-//   }
-//   showCards();
-// });
-
-// nextButton.addEventListener('click', function() {
-//   currentIndex++;
-//   if (currentIndex > galleryCards.length - 3) {
-//     currentIndex = 0;
-//   }
-//   showCards();
-// });
-
 for (var i = 0; i < galleryCards.length; i++) {
   galleryCards[i].addEventListener('click', function() {
     this.classList.toggle('flipped');

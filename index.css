@@ -94,10 +94,6 @@ nav {
     opacity: 0;
   }
   
-  /* .search-container input[type="text"].active {
-    opacity: 1;
-  } */
-  
   .search-container button {
     padding: 10px;
     border: none;
@@ -106,8 +102,6 @@ nav {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     background-color: transparent;
-    /* margin-left: 40px; */
-    /* position: absolute; */
   }
 
   @media (min-width: 576px) {
@@ -321,7 +315,6 @@ nav {
     top: 0;
     right: -100%;
     width: 50%;
-    /* min-height: 1000px; */
     padding: 20px;
     background: var(--bg-color);
     background-color: #fff;
@@ -336,7 +329,6 @@ nav {
     top: 0;
     right: -100%;
     width: 360px;
-    /* min-height: 1000px; */
     padding: 20px;
     background: var(--bg-color);
     background-color: #fff;
@@ -400,20 +392,6 @@ nav {
     text-transform: uppercase;
   }
 }
-
-/* @media (min-width: 576px) {
-  .sales-page-p, p {
-    font-size: 25px;
-    text-transform: uppercase;
-  }
-}
-
-@media (min-width: 1201px) {
-  .sales-page-p, p {
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-} */
 
 @media (min-width: 576px) {
   .cart-price {
@@ -560,8 +538,6 @@ nav {
     background-attachment: fixed;
     height: 100vh;
     margin: 0%;
-    /* opacity: 0.5; */
-
   }
 
   @media (min-width: 576px) {
@@ -612,8 +588,7 @@ nav {
     font-family: 'Georgia pro', serif;
     font-weight: 600;
     font-size: 35px;
-    /* padding-left: 20px; */
-}
+  }
 }
 
 @media (min-width: 1200px) {
@@ -621,12 +596,10 @@ nav {
     font-family: 'Georgia pro', serif;
     font-weight: 500;
     font-size: 20px;
-    /* padding-left: 20px; */
-}
+  }
 }
 
 .second-section {
-  /* padding-top: 1.8rem; */
   padding: 1rem;
   background-color: #fff;
 
@@ -644,26 +617,17 @@ nav {
   .image-row {
     display: block;
     justify-content: center;
-    /* margin-bottom: 20px; */
     width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
   .image-row {
-    /* Prilagođeni stilovi samo za veličinu ekrana od 480 piksela */
     display: flex;
-    /* justify-content: initial; */
     margin-bottom: 10px;
     width: 100%;
   }
 }
-
-/* .image-column {
-  position: relative;
-  margin-right: 20px;
-  flex: 1;
-} */
 
 @media (min-width: 576px) {
   .image-column {
@@ -705,10 +669,9 @@ nav {
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   display: flex;
-  flex-direction: column; /* dodano */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding: 10px; */
   opacity: 0;
   transition: opacity 0.3s ease;
   width: 100%;
@@ -852,69 +815,12 @@ nav {
   }
 }
 
-/* @media (min-width: 576px) {
-  .product-title {
-    font-size: 45px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    text-align: center;
-  }
-}
-
-@media (min-width: 1201px) {
-  .product-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    text-align: left;
-  }
-} */
-
-/* @media (min-width: 576px) {
-  .product-des {
-    font-size: 22px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    text-align: center;
-  }
-}
-
-@media (min-width: 1201px) {
-  .product-des {
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    text-align: left;
-  }
-} */
-
-/* @media (min-width: 576px) {
-  .price {
-    font-weight: 600;
-    font-size: 35px;
-  }
-}
-
-@media (min-width: 1201px) {
-  .price {
-    font-weight: 600;
-    font-size: 20px;
-  }
-} */
-
 @media (min-width: 576px) {
   .add-cart {
     position: absolute;
     bottom: 0;
     right: 0;
     padding: 10px;
-    /* background: #000; */
-    /* color: #fff; */
-    /* padding: 10px; */
     cursor: pointer;
     width: 40px;
   }
@@ -926,24 +832,10 @@ nav {
     bottom: 0;
     right: 0;
     padding: 10px;
-    /* background: #000; */
-    /* color: #fff; */
-    /* padding: 10px; */
     cursor: pointer;
     width: 25px;
   }
 }
-
-/* Breakpoints / Making Responsive  */
-@media (max-width:1080px){
-
-}
-
-/* .add-cart:hover {
-  background: hsl(249,32%,17%);
-} */
-
-
 
  /*Text*/
  .text-title {
@@ -1065,7 +957,6 @@ nav {
 .form .group input:focus+ label, .form .group textarea:focus +label {
   top: -10px;
   left: 10px;
-  /* background-color: #fff; */
   color: #3366cc;
   font-weight: 600;
   font-size: 14px;
@@ -1125,13 +1016,6 @@ nav {
   }
 }
 
-/* @media (min-width: 1201px) {
-  .item-1 {
-    display: flex;
-    justify-content: space-between;
-  }
-} */
-
 
 @media (min-width: 576px) {
   .column-4 {
@@ -1170,7 +1054,6 @@ nav {
     background-size: 16px 16px;
     padding: 8px 28px 8px 10px;
     font-size: 20px;
-    /* line-height: 1.4; */
     border: 1px solid #ccc;
     border-radius: 4px;
     color: #333;
@@ -1198,7 +1081,6 @@ nav {
     background-size: 16px 16px;
     padding: 8px 28px 8px 10px;
     font-size: 14px;
-    /* line-height: 1.4; */
     border: 1px solid #ccc;
     border-radius: 4px;
     color: #333;
@@ -1217,13 +1099,13 @@ nav {
   }
 }
 
-/* Stilovi za opcije u padajućem meniju */
+/* Styles for dropdown menu options */
 select option {
   background-color: #fff;
   color: #333;
 }
 
-/* Stilovi za padajući meni kada je fokusiran */
+/* Styles for dropdown menu when focused */
 select:focus {
   outline: none;
   border-color: #0077cc;
@@ -1231,14 +1113,13 @@ select:focus {
   max-height: 400px;
 }
 
-/* Stilovi za padajući meni kada je otvoren */
+/* Styles for the dropdown menu when it is open */
 select:active, select:hover {
   max-height: 400px;
 }
 
-/* Promenite ove vrednosti da biste prilagodili stil padajućeg menija */
+
 select {
-  /* background-color: #f8f8f8; */
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   font-family: Arial, sans-serif;
@@ -1247,7 +1128,6 @@ select {
 
 select option:hover {
   background-color: #0077cc;
-  /* color: #fff; */
 }
 
 /* First page end */
@@ -1315,10 +1195,8 @@ select option:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color:rgba(19, 19, 19, 0.66);;
-    /* padding: 10px; */
-    /* border-radius: 5px; */
     display: flex;
-    flex-direction: column; /* dodano */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -1336,10 +1214,8 @@ select option:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color:rgba(19, 19, 19, 0.66);;
-    /* padding: 10px; */
-    /* border-radius: 5px; */
     display: flex;
-    flex-direction: column; /* dodano */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -1353,14 +1229,12 @@ select option:hover {
 .lr-column-1 {
   position: relative;
   display: inline-block;
-  /* margin: 20px; */
   margin-bottom: 20px;
 }
 
 @media (min-width: 576px) {
   .lr-item-3 {
     display: block;
-    /* width: 95%; */
     padding: 5px;
     background-color: #fff;
     margin: auto;
@@ -1383,9 +1257,7 @@ select option:hover {
 @media (min-width: 576px) {
   .small-img {
     display: block;
-    /* padding-right: 5px; */
     padding-top: 3px;
-    /* padding-bottom: 5px; */
   }
 }
 
@@ -1396,10 +1268,6 @@ select option:hover {
     padding-top: 3px;
   }
 }
-
-/* .small-img, .lr-img-g-2-padding {
-  padding-right: 5px;
-} */
 
 @media (min-width: 576px) {
   .small-img img {
@@ -1425,16 +1293,6 @@ select option:hover {
   }
 }
 
-/* Article pages start  */
-
-/* .sofas-fs {
-  padding-top: 370px;
-}
-
-.sofas-price-wrapper {
-  display: flex;
-} */
-
 .status-wrapper {
   display: flex;
 }
@@ -1442,11 +1300,6 @@ select option:hover {
 .status-h3 {
   margin: 0%;
 }
-
-/* .sofas-h1 {
-  text-align: center;
-  font-size: 50px;
-} */
 
 @media (min-width: 576px) {
   .flex-box-footer {
@@ -1501,32 +1354,16 @@ select option:hover {
   }
 }
 
-/* @media (min-width: 576px) {
-  #copyright, h4 {
-  font-size: 20px;
-  }
-}
-
-@media (min-width: 1201px) {
-  #copyright, h4 {
-    font-size: 20px;
-  }
-} */
-
 
 @media (min-width: 576px) {
   #footer-img {
     width: 270px;
-    /* text-align: center; */
-    /* margin: 0 auto; */
   }
 }
 
 @media (min-width: 1201px) {
   #footer-img {
     width: 200px;
-    /* text-align: center; */
-    /* margin: none; */
   }
 }
 
